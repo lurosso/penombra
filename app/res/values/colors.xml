@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ground">#FF0B1022</color>
+    <color name="surface">#FF141B35</color>
+    <color name="bone">#FFE3DCC8</color>
+    <color name="slate">#FF8D94AA</color>
+    <color name="ochre">#FFC59B4F</color>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default language: English. Italian is in values-it. -->
+<resources>
+    <string name="app_name" translatable="false">Penombra</string>
+
+    <string name="phase_full">Full moon</string>
+    <string name="phase_gibbous">Waning gibbous</string>
+    <string name="phase_quarter">Last quarter</string>
+    <string name="phase_crescent">Waning crescent</string>
+    <string name="phase_new">New moon</string>
+    <string name="phase_eclipsed">Eclipsed moon</string>
+
+    <string name="preset_quarter">Quarter</string>
+    <string name="preset_crescent">Crescent</string>
+    <string name="preset_new">New moon</string>
+    <string name="preset_pitch">Pitch dark</string>
+    <string name="preset_desc">Level %1$s</string>
+    <string name="preset_desc_on">Level %1$s, on</string>
+
+    <string name="native_title">Extra dim</string>
+    <string name="native_sub">Android\'s own extra dim. Penombra does not keep running.</string>
+    <string name="native_sub_solo">Android\'s own extra dim. Controlling it needs a permission given once from a computer. Until then Penombra uses the Eclipse.</string>
+    <string name="native_intensity">Extra dim, intensity</string>
+
+    <string name="perm_title">How to unlock it</string>
+    <string name="perm_body">Turn on USB debugging in Developer options, connect the phone to a computer with ADB and run this command. Then come back here.</string>
+    <string name="perm_copy">Copy command</string>
+    <string name="perm_copied">Command copied</string>
+    <string name="perm_note">On realme and OPPO, first also turn on «Disable permission monitoring», in Developer options too.</string>
+
+    <string name="lock_title">Also on the lock screen</string>
+    <string name="lock_sub">Some phones (realme) drop the extra dim while locked: Penombra then lays a veil there only. Uses a few more resources: an accessibility service stays on while the extra dim is on.</string>
+
+    <string name="eclipse_title">Eclipse</string>
+    <string name="eclipse_sub">A black veil over the whole screen, for pitch dark. It runs a small service only while it is on.</string>
+    <string name="eclipse_sub_need">A black veil over the whole screen. It needs the «Display over other apps» permission.</string>
+    <string name="eclipse_sub_solo">A black veil over the whole screen. Works right away: the moon and the levels above set it.</string>
+    <string name="eclipse_sub_solo_need">A black veil over the whole screen. Works right away, it only needs the «Display over other apps» permission: Penombra asks on the first tap.</string>
+    <string name="eclipse_intensity">Eclipse, intensity</string>
+    <string name="eclipse_short">Black veil over everything, for pitch dark</string>
+    <string name="veil_hint">The top bar (clock, battery, notifications) stays bright: Android lets only an accessibility service cover it. To darken it too, turn on Penombra in Accessibility. If the switch is greyed out: App info › ⋮ › Allow restricted settings.</string>
+    <string name="veil_hint_open">Open Accessibility</string>
+
+    <string name="schedule_title">Schedule</string>
+    <string name="schedule_sub">Turns Penombra on and off by itself, every night.</string>
+    <string name="schedule_start_desc">Start time</string>
+    <string name="schedule_end_desc">End time</string>
+    <string name="schedule_from">From %1$s</string>
+    <string name="schedule_to">Until %1$s</string>
+    <string name="next_off">Schedule off</string>
+    <string name="next_same">Pick two different times</string>
+    <string name="next_end">Turns off by itself at %1$s</string>
+    <string name="next_start">Turns on by itself at %1$s</string>
+
+    <string name="add_tile">Add to Quick Settings</string>
+    <string name="tile_added">The tile is in Quick Settings</string>
+    <string name="language">Language: %1$s</string>
+    <string name="language_title">Language</string>
+    <string name="language_system">System</string>
+
+    <string name="summary_normal">Screen at normal brightness</string>
+    <string name="summary_native">Extra dim %1$d%%</string>
+    <string name="summary_eclipse">Eclipse %1$d%%</string>
+
+    <string name="moon_desc">Moon: %1$s%2$s. Drag down to darken, up to lighten.</string>
+    <string name="moon_desc_eclipse">, eclipse on</string>
+    <string name="close">Close</string>
+    <string name="open_app">Open Penombra</string>
+
+    <string name="tile_off">Off</string>
+    <string name="tile_eclipse">Eclipse</string>
+    <string name="tile_phase_eclipse">%1$s · Eclipse</string>
+    <string name="tile_on_desc">Penombra on</string>
+    <string name="tile_off_desc">Penombra off</string>
+
+    <string name="notif_channel">Eclipse on</string>
+    <string name="notif_channel_desc">Stays visible while the dark veil is on</string>
+    <string name="notif_title">Eclipse on</string>
+    <string name="notif_text">Dark veil at %1$d%%</string>
+    <string name="notif_stop">Turn off</string>
+
+    <string name="veil_service_description">Only lays the Eclipse veil over the top bar (clock, battery, notifications), the bottom bar and the lock screen too. It does not read the screen and touches nothing. If Penombra has the permission given from a computer, it turns this on and off by itself together with the veil.</string>
+</resources>

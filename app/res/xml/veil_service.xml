@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Penombra's accessibility service only draws the Eclissi veil above the status bar:
+     no events, no window content, no gestures. -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/veil_service_description"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="false"
+    android:isAccessibilityTool="true"
+    android:notificationTimeout="1000" />

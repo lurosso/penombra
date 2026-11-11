@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="phase_full">Luna piena</string>
+    <string name="phase_gibbous">Gibbosa calante</string>
+    <string name="phase_quarter">Ultimo quarto</string>
+    <string name="phase_crescent">Falce calante</string>
+    <string name="phase_new">Luna nuova</string>
+    <string name="phase_eclipsed">Luna in eclissi</string>
+
+    <string name="preset_quarter">Quarto</string>
+    <string name="preset_crescent">Falce</string>
+    <string name="preset_new">Luna nuova</string>
+    <string name="preset_pitch">Buio pesto</string>
+    <string name="preset_desc">Livello %1$s</string>
+    <string name="preset_desc_on">Livello %1$s, attivo</string>
+
+    <string name="native_title">Luce ridotta</string>
+    <string name="native_sub">La luminosità extra ridotta di Android. Penombra non resta in esecuzione.</string>
+    <string name="native_sub_solo">La luminosità extra ridotta di Android. Per comandarla serve un permesso che si dà una volta sola da un computer. Intanto Penombra usa l\'Eclissi.</string>
+    <string name="native_intensity">Luce ridotta, intensità</string>
+
+    <string name="perm_title">Come sbloccarla</string>
+    <string name="perm_body">Attiva il debug USB nelle Opzioni sviluppatore, collega il telefono a un computer con ADB e lancia questo comando. Poi torna qui.</string>
+    <string name="perm_copy">Copia comando</string>
+    <string name="perm_copied">Comando copiato</string>
+    <string name="perm_note">Su realme e OPPO attiva prima anche «Disabilita il monitoraggio autorizzazione», sempre nelle Opzioni sviluppatore.</string>
+
+    <string name="lock_title">Anche sulla schermata di blocco</string>
+    <string name="lock_sub">Alcuni telefoni (realme) tolgono la luce ridotta quando sono bloccati: Penombra stende un velo solo lì. Usa un po\' più di risorse: tiene acceso un servizio di Accessibilità finché la luce ridotta è accesa.</string>
+
+    <string name="eclipse_title">Eclissi</string>
+    <string name="eclipse_sub">Un velo nero sopra tutto lo schermo, per il buio pesto. Usa un piccolo servizio solo mentre è acceso.</string>
+    <string name="eclipse_sub_need">Un velo nero sopra tutto lo schermo. Serve il permesso «Mostra sopra altre app».</string>
+    <string name="eclipse_sub_solo">Un velo nero sopra tutto lo schermo. Funziona subito: la luna e i livelli qui sopra lo regolano.</string>
+    <string name="eclipse_sub_solo_need">Un velo nero sopra tutto lo schermo. Funziona subito, serve solo il permesso «Mostra sopra altre app»: Penombra te lo chiede al primo tocco.</string>
+    <string name="eclipse_intensity">Eclissi, intensità</string>
+    <string name="eclipse_short">Velo nero sopra tutto, per il buio pesto</string>
+    <string name="veil_hint">La barra in alto (ora, batteria, notifiche) resta chiara: Android la lascia coprire solo a un servizio di Accessibilità. Per scurire anche quella, attiva Penombra in Accessibilità. Se l\'interruttore è grigio: Info app › ⋮ › Consenti impostazioni con restrizioni.</string>
+    <string name="veil_hint_open">Apri Accessibilità</string>
+
+    <string name="schedule_title">Programma</string>
+    <string name="schedule_sub">Accende e spegne Penombra da sola, ogni notte.</string>
+    <string name="schedule_start_desc">Ora di accensione</string>
+    <string name="schedule_end_desc">Ora di spegnimento</string>
+    <string name="schedule_from">Dalle %1$s</string>
+    <string name="schedule_to">Alle %1$s</string>
+    <string name="next_off">Programma spento</string>
+    <string name="next_same">Scegli due orari diversi</string>
+    <string name="next_end">Si spegne da sola alle %1$s</string>
+    <string name="next_start">Si accende da sola alle %1$s</string>
+
+    <string name="add_tile">Aggiungi alle Impostazioni rapide</string>
+    <string name="tile_added">Il riquadro è nelle Impostazioni rapide</string>
+    <string name="language">Lingua: %1$s</string>
+    <string name="language_title">Lingua</string>
+    <string name="language_system">Sistema</string>
+
+    <string name="summary_normal">Schermo alla luminosità normale</string>
+    <string name="summary_native">Luce ridotta %1$d%%</string>
+    <string name="summary_eclipse">Eclissi %1$d%%</string>
+
+    <string name="moon_desc">Luna: %1$s%2$s. Trascina in basso per scurire, in alto per schiarire.</string>
+    <string name="moon_desc_eclipse">, eclissi attiva</string>
+    <string name="close">Chiudi</string>
+    <string name="open_app">Apri Penombra</string>
+
+    <string name="tile_off">Spenta</string>
+    <string name="tile_eclipse">Eclissi</string>
+    <string name="tile_phase_eclipse">%1$s · Eclissi</string>
+    <string name="tile_on_desc">Penombra accesa</string>
+    <string name="tile_off_desc">Penombra spenta</string>
+
+    <string name="notif_channel">Eclissi attiva</string>
+    <string name="notif_channel_desc">Resta visibile finché il velo scuro è acceso</string>
+    <string name="notif_title">Eclissi attiva</string>
+    <string name="notif_text">Velo scuro al %1$d%%</string>
+    <string name="notif_stop">Spegni</string>
+
+    <string name="veil_service_description">Serve solo a stendere il velo dell\'Eclissi anche sopra la barra in alto (ora, batteria, notifiche), quella in basso e la schermata di blocco. Non legge lo schermo e non tocca niente. Se Penombra ha il permesso dato dal computer, lo accende e lo spegne da sola insieme al velo.</string>
+</resources>

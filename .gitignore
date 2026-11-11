@@ -1,0 +1,13 @@
+# Build output
+build/
+*.apk
+*.idsig
+
+# Signing keys and local settings: never commit them
+*.keystore
+*.jks
+build.local
+
+# Local design-tool working files and the private product brief
+.impeccable/
+PRODUCT.md

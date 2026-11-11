@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Penombra" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/ground</item>
+        <item name="android:colorBackground">@color/ground</item>
+        <item name="android:colorPrimary">@color/ground</item>
+        <item name="android:colorPrimaryDark">@color/ground</item>
+        <item name="android:colorAccent">@color/ochre</item>
+        <item name="android:colorControlActivated">@color/ochre</item>
+        <item name="android:colorControlNormal">@color/slate</item>
+        <item name="android:textColorPrimary">@color/bone</item>
+        <item name="android:textColorSecondary">@color/slate</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="android:windowSplashScreenBackground">@color/ground</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_moon_fg</item>
+        <item name="android:textColorHighlight">#66C59B4F</item>
+    </style>
+
+    <style name="PenombraSheet" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">@color/ground</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.55</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorAccent">@color/ochre</item>
+        <item name="android:colorControlActivated">@color/ochre</item>
+        <item name="android:textColorPrimary">@color/bone</item>
+        <item name="android:textColorSecondary">@color/slate</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+
+    <style name="PenombraAlert" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:colorBackground">@color/surface</item>
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="android:colorAccent">@color/ochre</item>
+        <item name="android:colorControlActivated">@color/ochre</item>
+        <item name="android:textColorPrimary">@color/bone</item>
+        <item name="android:textColorSecondary">@color/slate</item>
+    </style>
+
+    <style name="PenombraDialog" parent="android:Theme.Material.Dialog">
+        <item name="android:colorBackground">@color/surface</item>
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="android:colorPrimary">@color/surface</item>
+        <item name="android:colorAccent">@color/ochre</item>
+        <item name="android:colorControlActivated">@color/ochre</item>
+        <item name="android:textColorPrimary">@color/bone</item>
+        <item name="android:textColorSecondary">@color/slate</item>
+    </style>
+</resources>

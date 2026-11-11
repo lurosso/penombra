@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Waning crescent, lit on the left; drawn inside the 66dp adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFE3DCC8"
+        android:pathData="M66,30 A24,24 0 1,0 66,78 A30,30 0 0,1 66,30 Z" />
+</vector>
